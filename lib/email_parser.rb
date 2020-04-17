@@ -8,7 +8,7 @@ class EmailAddressParser
   end
 
   def parse
-    @emails.unique
+    @emails.uniq
   end
 
 end
