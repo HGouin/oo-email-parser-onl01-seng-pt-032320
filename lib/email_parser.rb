@@ -7,6 +7,10 @@ class EmailAddressParser
     @emails = email_addresses.split(",").collect {|email| email.trim}
   end
 
+  def parse
+    @emails.unique
+  end
+
 end
 
 
