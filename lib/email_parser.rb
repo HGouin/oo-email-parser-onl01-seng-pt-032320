@@ -1,6 +1,4 @@
 class EmailAddressParser
-  email_addresses = ""
-  parser = EmailAddressParser.new(email_addresses)
 end
 
 
