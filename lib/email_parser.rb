@@ -2,6 +2,7 @@ class EmailAddressParser
   parser = EmailAddressParser.new(email_addresses)
   parser.parse
 end
+end
 
 
 # Build a class EmailParser that accepts a string of unformatted
