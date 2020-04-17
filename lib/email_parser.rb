@@ -1,6 +1,6 @@
 class EmailAddressParser
-  def parse(string)
-  end
+  parser = EmailAddressParser.new(email_addresses)
+  parser.parse
 end
 
 
