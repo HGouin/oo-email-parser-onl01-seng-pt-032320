@@ -4,6 +4,7 @@ class EmailAddressParser
   @emails = []
 
   def initialize(email_addresses)
+    @emails = email_addresses.split(",").collect {|email| email.trim}
   end
 
 end
